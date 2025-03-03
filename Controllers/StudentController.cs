@@ -10,7 +10,7 @@ namespace OreratileStudyGroup.Controllers
     public class StudentController : Controller
     {
         // GET: Student
-        public ActionResult Index()
+        public ActionResult StudentList()
         {
             List<StudentTable> Student = new List<StudentTable>
             {
